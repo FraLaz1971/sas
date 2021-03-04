@@ -1,5 +1,5 @@
 #m4_ifdef([AM_PROG_AR], [AM_PROG_AR])
-AC_INIT([amhello], [0.0.1], [bug-automake@gnu.org])
+AC_INIT([sas], [0.0.1], [fralaz1971@gmail.com])
 AM_INIT_AUTOMAKE([-Wall -Wno-error foreign])
 AC_PROG_CC
 AC_PROG_CXX
