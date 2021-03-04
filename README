@@ -1,0 +1,12 @@
+#~/amhello % cat README
+#This is a demonstration package for GNU Automake.
+#Type 'info Automake' to read the Automake manual.
+#this simple portable program can be installed and changed easily
+#checked and tested by fralaz1971@gmail.com
+#to compile
+./configure.sh
+make
+#to install
+make install
+#to uninstall
+make uninstall

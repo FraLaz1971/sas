@@ -1,0 +1,6 @@
+to install just run
+autoreconf --install
+./configure [--prefix=/some/path/here]
+make
+make install
+
