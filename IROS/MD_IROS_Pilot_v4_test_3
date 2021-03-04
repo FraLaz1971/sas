@@ -1,0 +1,23 @@
+;#####################################################
+;# This is a sample pilot file for the MD_IROS
+;# For the SuperAGILE pipeline SASOA 
+;# Igor Lapshov & Francesco Lazzarotto 
+;# modified 20/02/2008 
+;#####################################################
+BASE_DIR    = /home/orbital/projects/sasoa/stg_2/	      ; Base directory
+DATA_DIR    = /home/orbital/projects/sasoa/stg_2/../stg_2/attitude/version_for_sasoa/analisi/mdmap_tmp/default_mdm/ ; data root directory
+FILE	    = outL3_D3.imdmap    ; Input file name 
+DETECTOR    = 3			          ; -- Detector number
+LAD_GAP     = 18		   ; Gap between ladders
+GAP_START   = 767		   ; Strip No. after gap
+MAX_ROUNDS  = 2		   ; No. of IROS rounds
+MIN_SIGMAS  = 4.5		   ; Number of STDs.
+USE_CAT     = 0 		   ; Set to 1 if catalog is to be used. 
+USE_DEFF_MASK = 1     ; 1 to use efficiency arrays
+DEFF_MASK_NAME  = /home/orbital/projects/sasoa/stg_2/DEff_Mask_updated_070704.eff
+SAFE_MODE    = 0        ; 1 if to use a safe mode
+S_MODE_LEVEL = 0.01 ; Fractional change of chi2 in safe mode
+GROUND_MASK  = 0    ; Set to 1 if need to use magnified array
+BKGR_MODEL   = 2    ; 1, 2, etc. for different BKGR models
+FIT_XA_EFF   = 0    ; Set to 1 if XA efficiency is to be fitted
+N_XA_PARAMS  = 48   ; How many regions to use (12, 24, 36, 48 ... - multiple of 12)

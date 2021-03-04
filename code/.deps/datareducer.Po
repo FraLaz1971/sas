@@ -1,0 +1,851 @@
+datareducer.o datareducer.o: datareducer.cpp datareducer.h \
+  l1_9eventlist.h pipelinemodule.h /usr/include/stdlib.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/stddef.h \
+  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+  /usr/include/endian.h /usr/include/bits/endian.h /usr/include/xlocale.h \
+  /usr/include/sys/types.h /usr/include/bits/types.h \
+  /usr/include/bits/wordsize.h /usr/include/bits/typesizes.h \
+  /usr/include/time.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/alloca.h /usr/include/g++/string \
+  /usr/include/g++/i586-suse-linux/bits/c++config.h \
+  /usr/include/g++/i586-suse-linux/bits/os_defines.h \
+  /usr/include/g++/bits/stringfwd.h /usr/include/g++/bits/char_traits.h \
+  /usr/include/g++/cstring /usr/include/g++/cstddef /usr/include/string.h \
+  /usr/include/g++/bits/fpos.h \
+  /usr/include/g++/i586-suse-linux/bits/c++io.h /usr/include/g++/cstdio \
+  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+  /usr/include/wchar.h /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/g++/i586-suse-linux/bits/gthr.h \
+  /usr/include/g++/i586-suse-linux/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/signal.h \
+  /usr/include/bits/initspin.h /usr/include/bits/sigthread.h \
+  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/g++/cwchar /usr/include/g++/ctime \
+  /usr/include/g++/memory /usr/include/g++/bits/stl_algobase.h \
+  /usr/include/g++/climits \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/limits.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+  /usr/include/g++/cstdlib /usr/include/g++/new \
+  /usr/include/g++/exception /usr/include/g++/iosfwd \
+  /usr/include/g++/i586-suse-linux/bits/c++locale.h \
+  /usr/include/g++/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /usr/include/langinfo.h \
+  /usr/include/nl_types.h /usr/include/iconv.h /usr/include/libintl.h \
+  /usr/include/g++/cctype /usr/include/ctype.h \
+  /usr/include/g++/bits/functexcept.h \
+  /usr/include/g++/exception_defines.h /usr/include/g++/bits/stl_pair.h \
+  /usr/include/g++/bits/type_traits.h \
+  /usr/include/g++/bits/stl_iterator_base_types.h \
+  /usr/include/g++/bits/stl_iterator_base_funcs.h \
+  /usr/include/g++/bits/concept_check.h \
+  /usr/include/g++/bits/stl_iterator.h /usr/include/g++/bits/stl_alloc.h \
+  /usr/include/g++/bits/stl_threads.h \
+  /usr/include/g++/i586-suse-linux/bits/atomicity.h \
+  /usr/include/g++/bits/stl_construct.h \
+  /usr/include/g++/bits/stl_uninitialized.h \
+  /usr/include/g++/bits/stl_raw_storage_iter.h \
+  /usr/include/g++/bits/stl_function.h \
+  /usr/include/g++/bits/basic_string.h /usr/include/g++/algorithm \
+  /usr/include/g++/bits/stl_algo.h /usr/include/g++/bits/stl_heap.h \
+  /usr/include/g++/bits/stl_tempbuf.h \
+  /usr/include/g++/bits/basic_string.tcc /usr/include/g++/vector \
+  /usr/include/g++/bits/stl_vector.h /usr/include/g++/bits/stl_bvector.h \
+  /usr/include/g++/bits/vector.tcc /usr/include/g++/iostream \
+  /usr/include/g++/ostream /usr/include/g++/ios \
+  /usr/include/g++/bits/localefwd.h /usr/include/g++/bits/ios_base.h \
+  /usr/include/g++/bits/locale_classes.h /usr/include/g++/streambuf \
+  /usr/include/g++/bits/streambuf.tcc /usr/include/g++/bits/basic_ios.h \
+  /usr/include/g++/bits/streambuf_iterator.h \
+  /usr/include/g++/bits/locale_facets.h /usr/include/g++/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/g++/i586-suse-linux/bits/ctype_base.h \
+  /usr/include/g++/i586-suse-linux/bits/ctype_inline.h \
+  /usr/include/g++/bits/codecvt.h \
+  /usr/include/g++/i586-suse-linux/bits/codecvt_specializations.h \
+  /usr/include/g++/i586-suse-linux/bits/time_members.h \
+  /usr/include/g++/i586-suse-linux/bits/messages_members.h \
+  /usr/include/g++/bits/basic_ios.tcc /usr/include/g++/bits/ostream.tcc \
+  /usr/include/g++/locale /usr/include/g++/bits/locale_facets.tcc \
+  /usr/include/g++/cerrno /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/g++/cmath /usr/include/math.h /usr/include/bits/huge_val.h \
+  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+  /usr/include/bits/inf.h /usr/include/bits/nan.h \
+  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathinline.h /usr/include/g++/bits/cmath.tcc \
+  /usr/include/g++/limits /usr/include/g++/typeinfo \
+  /usr/include/g++/istream /usr/include/g++/bits/istream.tcc \
+  /usr/include/g++/fstream \
+  /usr/include/g++/i586-suse-linux/bits/basic_file.h \
+  /usr/include/g++/bits/fstream.tcc /usr/include/g++/sstream \
+  /usr/include/g++/bits/sstream.tcc /usr/include/dirent.h \
+  /usr/include/bits/dirent.h timer.h /usr/include/sys/time.h \
+  /usr/include/g++/backward/iostream.h \
+  /usr/include/g++/backward/backward_warning.h sasoacommandlist.h \
+  /usr/include/g++/map /usr/include/g++/bits/stl_tree.h \
+  /usr/include/g++/bits/stl_map.h /usr/include/g++/bits/stl_multimap.h \
+  /usr/include/g++/iterator /usr/include/g++/bits/stream_iterator.h \
+  sasoacommand.h /usr/include/g++/stdexcept safitshandler.h \
+  archivehandler.h safilenamer.h archivemodule.h hertagbase.h \
+  /usr/include/g++/iomanip /usr/include/g++/functional \
+  /usr/include/g++/utility /usr/include/g++/bits/stl_relops.h \
+  saexception.h sadefinitions.h systemconnector.h connector.h \
+  agilefilename.h filelist.h /usr/include/g++/list \
+  /usr/include/g++/bits/stl_list.h /usr/include/g++/bits/list.tcc \
+  sadatetime.h /usr/local_agile/headas/install_dir/include/CCfits/CCfits \
+  /usr/local_agile/headas/install_dir/include/CCfits/CCfits.h \
+  /usr/local_agile/headas/install_dir/include/fitsio.h \
+  /usr/local_agile/headas/install_dir/include/longnam.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/float.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/FITS.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/ExtHDU.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/HDU.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/Keyword.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/FitsError.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/NewKeyword.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/KeywordCreator.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/KeyData.h \
+  /usr/include/g++/complex /usr/include/g++/bits/cpp_type_traits.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/FITSUtil.h \
+  /usr/include/g++/valarray /usr/include/g++/numeric \
+  /usr/include/g++/bits/stl_numeric.h \
+  /usr/include/g++/bits/valarray_array.h \
+  /usr/include/g++/bits/valarray_array.tcc \
+  /usr/include/g++/bits/valarray_meta.h \
+  /usr/include/g++/bits/slice_array.h /usr/include/g++/bits/gslice.h \
+  /usr/include/g++/bits/gslice_array.h /usr/include/g++/bits/mask_array.h \
+  /usr/include/g++/bits/indirect_array.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/KeywordT.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/HDUCreator.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/BinTable.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/Table.h ../config.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/AsciiTable.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/ColumnVectorData.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/Column.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/ColumnData.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/ColumnT.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/ExtHDUT.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/ImageExt.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/Image.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/FITSUtilT.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/PHDUT.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/PrimaryHDU.h \
+  /usr/local_agile/headas/install_dir/include/CCfits/PHDU.h \
+  agiledbconnector.h /usr/local_agile/qt/include/qapplication.h \
+  /usr/local_agile/qt/include/qdesktopwidget.h \
+  /usr/local_agile/qt/include/qwidget.h \
+  /usr/local_agile/qt/include/qwindowdefs.h \
+  /usr/local_agile/qt/include/qobjectdefs.h \
+  /usr/local_agile/qt/include/qglobal.h \
+  /usr/local_agile/qt/include/qconfig.h \
+  /usr/local_agile/qt/include/qmodules.h \
+  /usr/local_agile/qt/include/qfeatures.h \
+  /usr/local_agile/qt/include/qstring.h \
+  /usr/local_agile/qt/include/qcstring.h \
+  /usr/local_agile/qt/include/qmemarray.h \
+  /usr/local_agile/qt/include/qgarray.h \
+  /usr/local_agile/qt/include/qshared.h \
+  /usr/local_agile/qt/include/qwinexport.h \
+  /usr/local_agile/qt/include/qnamespace.h \
+  /usr/local_agile/qt/include/qobject.h \
+  /usr/local_agile/qt/include/qevent.h \
+  /usr/local_agile/qt/include/qregion.h \
+  /usr/local_agile/qt/include/qrect.h /usr/local_agile/qt/include/qsize.h \
+  /usr/local_agile/qt/include/qpoint.h \
+  /usr/local_agile/qt/include/qmime.h /usr/local_agile/qt/include/qmap.h \
+  /usr/local_agile/qt/include/qdatastream.h \
+  /usr/local_agile/qt/include/qiodevice.h \
+  /usr/local_agile/qt/include/qpair.h \
+  /usr/local_agile/qt/include/qvaluelist.h \
+  /usr/local_agile/qt/include/qtl.h \
+  /usr/local_agile/qt/include/qtextstream.h \
+  /usr/local_agile/qt/include/qpaintdevice.h \
+  /usr/local_agile/qt/include/qpalette.h \
+  /usr/local_agile/qt/include/qcolor.h \
+  /usr/local_agile/qt/include/qstringlist.h \
+  /usr/local_agile/qt/include/qstrlist.h \
+  /usr/local_agile/qt/include/qptrlist.h \
+  /usr/local_agile/qt/include/qglist.h \
+  /usr/local_agile/qt/include/qptrcollection.h \
+  /usr/local_agile/qt/include/qbrush.h \
+  /usr/local_agile/qt/include/qfont.h \
+  /usr/local_agile/qt/include/qfontmetrics.h \
+  /usr/local_agile/qt/include/qfontinfo.h \
+  /usr/local_agile/qt/include/qsizepolicy.h \
+  /usr/local_agile/qt/include/qasciidict.h \
+  /usr/local_agile/qt/include/qgdict.h \
+  /usr/local_agile/qt/include/qtranslator.h \
+  /usr/local_agile/qt/include/qsqldatabase.h \
+  /usr/local_agile/qt/include/qsqlquery.h \
+  /usr/local_agile/qt/include/qvariant.h \
+  /usr/local_agile/qt/include/qsqlerror.h \
+  /usr/local_agile/qt/include/qsqlfield.h \
+  /usr/local_agile/qt/include/qsql.h \
+  /usr/local_agile/qt/include/qdatatable.h \
+  /usr/local_agile/qt/include/qtable.h \
+  /usr/local_agile/qt/include/qscrollview.h \
+  /usr/local_agile/qt/include/qframe.h \
+  /usr/local_agile/qt/include/qscrollbar.h \
+  /usr/local_agile/qt/include/qrangecontrol.h \
+  /usr/local_agile/qt/include/qpixmap.h \
+  /usr/local_agile/qt/include/qptrvector.h \
+  /usr/local_agile/qt/include/qgvector.h \
+  /usr/local_agile/qt/include/qheader.h \
+  /usr/local_agile/qt/include/qiconset.h \
+  /usr/local_agile/qt/include/qguardedptr.h \
+  /usr/local_agile/qt/include/qintdict.h \
+  /usr/local_agile/qt/include/qsqlcursor.h \
+  /usr/local_agile/qt/include/qsqlrecord.h \
+  /usr/local_agile/qt/include/qsqlindex.h \
+  /usr/local_agile/qt/include/qsqleditorfactory.h \
+  /usr/local_agile/qt/include/qeditorfactory.h \
+  /usr/local_agile/qt/include/qmessagebox.h \
+  /usr/local_agile/qt/include/qdialog.h dbconnector.h type1exception.h \
+  type2exception.h
+
+datareducer.h:
+
+l1_9eventlist.h:
+
+pipelinemodule.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/alloca.h:
+
+/usr/include/g++/string:
+
+/usr/include/g++/i586-suse-linux/bits/c++config.h:
+
+/usr/include/g++/i586-suse-linux/bits/os_defines.h:
+
+/usr/include/g++/bits/stringfwd.h:
+
+/usr/include/g++/bits/char_traits.h:
+
+/usr/include/g++/cstring:
+
+/usr/include/g++/cstddef:
+
+/usr/include/string.h:
+
+/usr/include/g++/bits/fpos.h:
+
+/usr/include/g++/i586-suse-linux/bits/c++io.h:
+
+/usr/include/g++/cstdio:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/g++/i586-suse-linux/bits/gthr.h:
+
+/usr/include/g++/i586-suse-linux/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/initspin.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/g++/cwchar:
+
+/usr/include/g++/ctime:
+
+/usr/include/g++/memory:
+
+/usr/include/g++/bits/stl_algobase.h:
+
+/usr/include/g++/climits:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/limits.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/g++/cstdlib:
+
+/usr/include/g++/new:
+
+/usr/include/g++/exception:
+
+/usr/include/g++/iosfwd:
+
+/usr/include/g++/i586-suse-linux/bits/c++locale.h:
+
+/usr/include/g++/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/langinfo.h:
+
+/usr/include/nl_types.h:
+
+/usr/include/iconv.h:
+
+/usr/include/libintl.h:
+
+/usr/include/g++/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/g++/bits/functexcept.h:
+
+/usr/include/g++/exception_defines.h:
+
+/usr/include/g++/bits/stl_pair.h:
+
+/usr/include/g++/bits/type_traits.h:
+
+/usr/include/g++/bits/stl_iterator_base_types.h:
+
+/usr/include/g++/bits/stl_iterator_base_funcs.h:
+
+/usr/include/g++/bits/concept_check.h:
+
+/usr/include/g++/bits/stl_iterator.h:
+
+/usr/include/g++/bits/stl_alloc.h:
+
+/usr/include/g++/bits/stl_threads.h:
+
+/usr/include/g++/i586-suse-linux/bits/atomicity.h:
+
+/usr/include/g++/bits/stl_construct.h:
+
+/usr/include/g++/bits/stl_uninitialized.h:
+
+/usr/include/g++/bits/stl_raw_storage_iter.h:
+
+/usr/include/g++/bits/stl_function.h:
+
+/usr/include/g++/bits/basic_string.h:
+
+/usr/include/g++/algorithm:
+
+/usr/include/g++/bits/stl_algo.h:
+
+/usr/include/g++/bits/stl_heap.h:
+
+/usr/include/g++/bits/stl_tempbuf.h:
+
+/usr/include/g++/bits/basic_string.tcc:
+
+/usr/include/g++/vector:
+
+/usr/include/g++/bits/stl_vector.h:
+
+/usr/include/g++/bits/stl_bvector.h:
+
+/usr/include/g++/bits/vector.tcc:
+
+/usr/include/g++/iostream:
+
+/usr/include/g++/ostream:
+
+/usr/include/g++/ios:
+
+/usr/include/g++/bits/localefwd.h:
+
+/usr/include/g++/bits/ios_base.h:
+
+/usr/include/g++/bits/locale_classes.h:
+
+/usr/include/g++/streambuf:
+
+/usr/include/g++/bits/streambuf.tcc:
+
+/usr/include/g++/bits/basic_ios.h:
+
+/usr/include/g++/bits/streambuf_iterator.h:
+
+/usr/include/g++/bits/locale_facets.h:
+
+/usr/include/g++/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/g++/i586-suse-linux/bits/ctype_base.h:
+
+/usr/include/g++/i586-suse-linux/bits/ctype_inline.h:
+
+/usr/include/g++/bits/codecvt.h:
+
+/usr/include/g++/i586-suse-linux/bits/codecvt_specializations.h:
+
+/usr/include/g++/i586-suse-linux/bits/time_members.h:
+
+/usr/include/g++/i586-suse-linux/bits/messages_members.h:
+
+/usr/include/g++/bits/basic_ios.tcc:
+
+/usr/include/g++/bits/ostream.tcc:
+
+/usr/include/g++/locale:
+
+/usr/include/g++/bits/locale_facets.tcc:
+
+/usr/include/g++/cerrno:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/g++/cmath:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/include/g++/bits/cmath.tcc:
+
+/usr/include/g++/limits:
+
+/usr/include/g++/typeinfo:
+
+/usr/include/g++/istream:
+
+/usr/include/g++/bits/istream.tcc:
+
+/usr/include/g++/fstream:
+
+/usr/include/g++/i586-suse-linux/bits/basic_file.h:
+
+/usr/include/g++/bits/fstream.tcc:
+
+/usr/include/g++/sstream:
+
+/usr/include/g++/bits/sstream.tcc:
+
+/usr/include/dirent.h:
+
+/usr/include/bits/dirent.h:
+
+timer.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/g++/backward/iostream.h:
+
+/usr/include/g++/backward/backward_warning.h:
+
+sasoacommandlist.h:
+
+/usr/include/g++/map:
+
+/usr/include/g++/bits/stl_tree.h:
+
+/usr/include/g++/bits/stl_map.h:
+
+/usr/include/g++/bits/stl_multimap.h:
+
+/usr/include/g++/iterator:
+
+/usr/include/g++/bits/stream_iterator.h:
+
+sasoacommand.h:
+
+/usr/include/g++/stdexcept:
+
+safitshandler.h:
+
+archivehandler.h:
+
+safilenamer.h:
+
+archivemodule.h:
+
+hertagbase.h:
+
+/usr/include/g++/iomanip:
+
+/usr/include/g++/functional:
+
+/usr/include/g++/utility:
+
+/usr/include/g++/bits/stl_relops.h:
+
+saexception.h:
+
+sadefinitions.h:
+
+systemconnector.h:
+
+connector.h:
+
+agilefilename.h:
+
+filelist.h:
+
+/usr/include/g++/list:
+
+/usr/include/g++/bits/stl_list.h:
+
+/usr/include/g++/bits/list.tcc:
+
+sadatetime.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/CCfits:
+
+/usr/local_agile/headas/install_dir/include/CCfits/CCfits.h:
+
+/usr/local_agile/headas/install_dir/include/fitsio.h:
+
+/usr/local_agile/headas/install_dir/include/longnam.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/float.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/FITS.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/ExtHDU.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/HDU.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/Keyword.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/FitsError.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/NewKeyword.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/KeywordCreator.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/KeyData.h:
+
+/usr/include/g++/complex:
+
+/usr/include/g++/bits/cpp_type_traits.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/FITSUtil.h:
+
+/usr/include/g++/valarray:
+
+/usr/include/g++/numeric:
+
+/usr/include/g++/bits/stl_numeric.h:
+
+/usr/include/g++/bits/valarray_array.h:
+
+/usr/include/g++/bits/valarray_array.tcc:
+
+/usr/include/g++/bits/valarray_meta.h:
+
+/usr/include/g++/bits/slice_array.h:
+
+/usr/include/g++/bits/gslice.h:
+
+/usr/include/g++/bits/gslice_array.h:
+
+/usr/include/g++/bits/mask_array.h:
+
+/usr/include/g++/bits/indirect_array.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/KeywordT.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/HDUCreator.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/BinTable.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/Table.h:
+
+../config.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/AsciiTable.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/ColumnVectorData.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/Column.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/ColumnData.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/ColumnT.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/ExtHDUT.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/ImageExt.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/Image.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/FITSUtilT.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/PHDUT.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/PrimaryHDU.h:
+
+/usr/local_agile/headas/install_dir/include/CCfits/PHDU.h:
+
+agiledbconnector.h:
+
+/usr/local_agile/qt/include/qapplication.h:
+
+/usr/local_agile/qt/include/qdesktopwidget.h:
+
+/usr/local_agile/qt/include/qwidget.h:
+
+/usr/local_agile/qt/include/qwindowdefs.h:
+
+/usr/local_agile/qt/include/qobjectdefs.h:
+
+/usr/local_agile/qt/include/qglobal.h:
+
+/usr/local_agile/qt/include/qconfig.h:
+
+/usr/local_agile/qt/include/qmodules.h:
+
+/usr/local_agile/qt/include/qfeatures.h:
+
+/usr/local_agile/qt/include/qstring.h:
+
+/usr/local_agile/qt/include/qcstring.h:
+
+/usr/local_agile/qt/include/qmemarray.h:
+
+/usr/local_agile/qt/include/qgarray.h:
+
+/usr/local_agile/qt/include/qshared.h:
+
+/usr/local_agile/qt/include/qwinexport.h:
+
+/usr/local_agile/qt/include/qnamespace.h:
+
+/usr/local_agile/qt/include/qobject.h:
+
+/usr/local_agile/qt/include/qevent.h:
+
+/usr/local_agile/qt/include/qregion.h:
+
+/usr/local_agile/qt/include/qrect.h:
+
+/usr/local_agile/qt/include/qsize.h:
+
+/usr/local_agile/qt/include/qpoint.h:
+
+/usr/local_agile/qt/include/qmime.h:
+
+/usr/local_agile/qt/include/qmap.h:
+
+/usr/local_agile/qt/include/qdatastream.h:
+
+/usr/local_agile/qt/include/qiodevice.h:
+
+/usr/local_agile/qt/include/qpair.h:
+
+/usr/local_agile/qt/include/qvaluelist.h:
+
+/usr/local_agile/qt/include/qtl.h:
+
+/usr/local_agile/qt/include/qtextstream.h:
+
+/usr/local_agile/qt/include/qpaintdevice.h:
+
+/usr/local_agile/qt/include/qpalette.h:
+
+/usr/local_agile/qt/include/qcolor.h:
+
+/usr/local_agile/qt/include/qstringlist.h:
+
+/usr/local_agile/qt/include/qstrlist.h:
+
+/usr/local_agile/qt/include/qptrlist.h:
+
+/usr/local_agile/qt/include/qglist.h:
+
+/usr/local_agile/qt/include/qptrcollection.h:
+
+/usr/local_agile/qt/include/qbrush.h:
+
+/usr/local_agile/qt/include/qfont.h:
+
+/usr/local_agile/qt/include/qfontmetrics.h:
+
+/usr/local_agile/qt/include/qfontinfo.h:
+
+/usr/local_agile/qt/include/qsizepolicy.h:
+
+/usr/local_agile/qt/include/qasciidict.h:
+
+/usr/local_agile/qt/include/qgdict.h:
+
+/usr/local_agile/qt/include/qtranslator.h:
+
+/usr/local_agile/qt/include/qsqldatabase.h:
+
+/usr/local_agile/qt/include/qsqlquery.h:
+
+/usr/local_agile/qt/include/qvariant.h:
+
+/usr/local_agile/qt/include/qsqlerror.h:
+
+/usr/local_agile/qt/include/qsqlfield.h:
+
+/usr/local_agile/qt/include/qsql.h:
+
+/usr/local_agile/qt/include/qdatatable.h:
+
+/usr/local_agile/qt/include/qtable.h:
+
+/usr/local_agile/qt/include/qscrollview.h:
+
+/usr/local_agile/qt/include/qframe.h:
+
+/usr/local_agile/qt/include/qscrollbar.h:
+
+/usr/local_agile/qt/include/qrangecontrol.h:
+
+/usr/local_agile/qt/include/qpixmap.h:
+
+/usr/local_agile/qt/include/qptrvector.h:
+
+/usr/local_agile/qt/include/qgvector.h:
+
+/usr/local_agile/qt/include/qheader.h:
+
+/usr/local_agile/qt/include/qiconset.h:
+
+/usr/local_agile/qt/include/qguardedptr.h:
+
+/usr/local_agile/qt/include/qintdict.h:
+
+/usr/local_agile/qt/include/qsqlcursor.h:
+
+/usr/local_agile/qt/include/qsqlrecord.h:
+
+/usr/local_agile/qt/include/qsqlindex.h:
+
+/usr/local_agile/qt/include/qsqleditorfactory.h:
+
+/usr/local_agile/qt/include/qeditorfactory.h:
+
+/usr/local_agile/qt/include/qmessagebox.h:
+
+/usr/local_agile/qt/include/qdialog.h:
+
+dbconnector.h:
+
+type1exception.h:
+
+type2exception.h:

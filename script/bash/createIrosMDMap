@@ -1,0 +1,21 @@
+#!/bin/sh
+# $1 = filename of L3 eventlist 
+# $2 = output directory for products
+# $3 = energy min
+# $4 = energy max
+ 
+if [[ $# < 1 ]]
+then
+  echo "usage : createIrosMDMap <L3_input_eventlist> [<outdir> <energy_min> <energy_max>]"
+  exit 0
+fi
+cd $SASOA_HOME/stg_2/attitude/version_for_sasoa/analisi
+rm -rf mdmap_tmp
+idl << ENDIDLBATCH
+.compile $SASOA_HOME/stg_2/attitude/version_for_sasoa/analisi/make_mdmap_ibrid.pro
+filename_l3='$1'
+print, 'going to exec make_mdmap ', 'filename_l3 = $filename_l3', 'Emin = $3', ' Emax = $4', '/MMEDIATE', ' /WRITEEFF', ' /DPHISTO ', ' /TMPOUTONLY ' 
+make_mdmap, filename_l3, Emin=$3, Emax=$4, /MMEDIATE, /WRITEEFF, /DPHISTO, /TMPOUTONLY
+exit 
+ENDIDLBATCH
+cd $OLDPWD

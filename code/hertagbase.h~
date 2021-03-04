@@ -1,0 +1,89 @@
+/***************************************************************************
+                          hertagbase.h  -  description
+                             -------------------
+    begin                : Wed Oct 11 2006
+    copyright            : (C) 2006 by Francesco Lazzarotto
+    email                : lazza@rm.iasf.cnr.it
+ ***************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+
+#ifndef HERTAGBASE_H
+#define HERTAGBASE_H
+
+ //#include <stdlib.h>
+ #include <string>
+ #include <vector>
+ #include <iostream>
+ #include <iomanip>
+ #include <utility>
+ #include <fstream>
+ #include <sstream>
+ #include <exception>
+ #include <stdexcept>
+ #include "timer.h"
+ #include "saexception.h"
+ #include "sadefinitions.h"
+ 
+ 
+using namespace std;
+using namespace SAExceptions;
+  
+/**Base class for hertag applications
+  *@author Francesco Lazzarotto                       
+  */
+enum SATask {Preprocessing, Correction, HistogramCreation ,OrbitRebuilding,
+DataReducing, PhotonListBuilding, SourcesExtraction, SourceAnalysis, IrosMapBuilding, OldDataReduction, AttitudeCorrection};
+
+typedef pair<double, double> GTI;
+
+class HertagBase {
+
+public: 
+	HertagBase();
+	~HertagBase();
+  /** No descriptions */
+  virtual int process();
+  /** No descriptions */
+  virtual void test();
+  /** No descriptions */
+  virtual void report();
+  /** No descriptions */
+  void setVerbose(bool v);
+  /** No descriptions */
+  void setEnvVar(const string &varname, const string &varvalue, int overwrite);
+  /** No descriptions */
+  void exportEnvVar(const string &varname, const string &varvalue);
+  void showAlert();
+  /** returns a vector of strings each element of the vector containing a word of the
+line */
+ void tokenizeLine(const string &linestring, vector<string> *restoken);
+  /** No descriptions */
+  Timer tmr;  
+  protected:
+  bool verbose;
+  int i, j, k, x, y, z;
+  char b;
+  string tempstring;
+  string tempstring1;  
+  string tempstring2;
+  string tempstring3;    
+  string substring;
+  string ts;
+  stringstream ss;   
+  int status;
+  exception e, er;
+  SAexception se, ser;
+  vector<string> resfiles;
+//  vector<string> restoken;
+  
+};
+
+#endif

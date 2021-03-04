@@ -1,0 +1,48 @@
+builtin.o builtin.o: builtin.cc builtin.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/stddef.h \
+  /usr/include/g++/cmath \
+  /usr/include/g++/i586-suse-linux/bits/c++config.h \
+  /usr/include/g++/i586-suse-linux/bits/os_defines.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h /usr/include/math.h \
+  /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+  /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+  /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+  /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+  /usr/include/g++/bits/cmath.tcc
+
+builtin.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.4/include/stddef.h:
+
+/usr/include/g++/cmath:
+
+/usr/include/g++/i586-suse-linux/bits/c++config.h:
+
+/usr/include/g++/i586-suse-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/include/g++/bits/cmath.tcc:

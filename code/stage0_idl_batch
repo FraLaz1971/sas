@@ -1,0 +1,7 @@
+.r stage_0
+filename='SAPKP_prova_003356_3_3905_000.lv1'
+path_out='PKP_prova_003356_3_3905_000'
+stage_0, filename, path_out
+.r close_all_windows
+close_all_windows
+exit

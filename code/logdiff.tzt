@@ -1,0 +1,112 @@
+d3 3
+a5 3
+#   L. Pacciani
+#   30/5/2006
+#   luigi.pacciani@iasf-roma.inaf.it
+d7 1
+a7 1
+# esempio di file di input per sal2_to_l3
+d9 1
+d16 1
+a16 1
+# Il simbolo "#" ad inizio riga
+d25 1
+a25 15
+#L2EVL   './prova_grmc_satellite_on_gc_l2_100ks_05.fits'
+#L2EVL   '../testfiles/prova_grmc_satellite_on_gc_l2_100ks_04.fits'
+#L2EVL   '../testfiles/prova_grmc_satellite_on_gc_l2_100ks_01.fits'
+#L2EVL   './prova_grmc_satellite_on_gc_l2_100ks_03.fits'
+#L2EVL   './prova_grmc_satellite_on_gc_l2_100ks_02.fits'
+#L2EVL   './prova_grmc_satellite_on_gc_l2_100ks_01.fits'
+#L2EVL   './prova_grmc_satellite_on_gc_l2.fits'
+#L2EVL   './prova_grmc_l2.fits'
+L2EVL   '/home/agile/SASOA/SA/data/SA_scie__orb_0_060721_142747_S_orb_00000_L2.evt'
+#L2EVL   'prova1.fits'
+#L2EVL   'prova2.fits'  /dati da scartare
+#L2EVL   'prova3.fits'
+#L2EVL   'prova4.fits'
+
+#FINE: lista dei ...
+d32 2
+a33 13
+
+#L3EVL   './prova_grmc_satellite_on_gc_l3_100ks_05.fits'
+#L3EVL   './prova_l3_04.fits'
+L3EVL   './prova_l3_05_L3.evt'
+#L3EVL   './prova_grmc_satellite_on_gc_l3_100ks_04.fits'
+#L3EVL   './prova_grmc_satellite_on_gc_l3_100ks_03.fits'
+#L3EVL   './prova_grmc_satellite_on_gc_l3_100ks_02.fits'
+#L3EVL   './prova_grmc_satellite_on_gc_l3_100ks_01.fits'
+#L3EVL   './prova_grmc_satellite_on_gc_l3.fits'
+#L3EVL   'prova_grmc_l3.fits'
+#L3EVL   'prova5.fits'
+
+#FINE: nome del file L3 ...
+d39 2
+a40 2
+# Il puntamento nominale è in lat, long dell'asse ottico di superagile.
+# In aggiunta c'è l'angolo di roll rispetto all'asse ottico.
+d42 1
+a42 1
+# Un apposito modulo può calcolarlo.
+d45 4
+a48 2
+SALONG_RAD '+4.6495571'     /rad, dove punti?
+SAROLL_RAD '-2.6011732'   /rad
+a49 1
+# FINE: Il puntamento ...
+a57 4
+#AG3914   '../testfiles/prova_grmc_satellite_on_gc_3914.fits'
+#AG3914  '../testfiles/prova_grmc_satellite_on_gc_3914.fits'
+#AG3914  './prova_3914.fits'
+#AG3914  '../testfiles/ag3914_gc_short.fits'
+d59 1
+a59 7
+#AG3914  'prova6.fits'
+#AG3914  'a' /
+#AG3914  'prova7.fits'
+##AG3914  'prova8.fits'
+#AG3914  'prova9.fits'
+
+#FINE: lista file 39.14 ...
+d66 1
+a66 1
+#               di buco tra dati consecutivi di attitude contenuti 
+d68 1
+a68 1
+#               
+d72 1
+a72 1
+#FINE: DTMAX_NOATT_S definisce ...
+d82 1
+a82 1
+#FINE: lista file con i good ...
+d88 2
+a89 2
+# se i file con le gti non sono stati definiti, 
+# si può dare uno start ed uno stop
+d91 1
+a91 1
+# i tempi sono in secondi, l'origine dei tempi è la stesa che per le gti
+d93 4
+a96 4
+TSTART_S '-9.E99'
+#TSTOP_S  '+5.E+04'
+#TSTOP_S  '+50.E+3'
+#TSTART_S '360375.'
+d99 2
+a100 2
+#FINE: se i file con le gti ...
+################################################################
+d104 2
+a105 2
+#################################################################
+# di seguito si definisce l'origine dei tempi per
+d110 5
+a114 6
+T0_GTI_S   '0.'       /non conosco ancora l'origine dei tempi delle GTI
+T0_EVL_S   '0.'       /non conosco ancora l'origine dei tempi della event list L2
+T0_QUAT_S  '0.'       /non conosco ancora l'origine dei tempi dei quaternioni nei file 39.14
+#T0_QUAT_S  '4130.'       /non conosco ancora l'origine dei tempi dei quaternioni nei file 39.14
+
+#FINE: di seguito si definisce l'origine ...

@@ -1,0 +1,6 @@
+filename='/home/agile/PFM/data/SA_scie_00000_060509_155922_S_orb_3_3905_00_L19.evt'
+path_out=''
+stage_1, filename, path_out
+.r close_all_windows
+close_all_windows
+exit

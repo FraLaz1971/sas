@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /home/agile/projects/Feb07/sasoa_newmain/sasoa_0_0_6
+./sasoa_0_0_6 $1 $2
+exit 0

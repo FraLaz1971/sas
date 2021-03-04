@@ -1,0 +1,3 @@
+executed, true
+instrument, SA
+sasoa_home, /home/agile/projects/sasoa/sasoa_0_0_6

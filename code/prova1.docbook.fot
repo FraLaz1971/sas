@@ -1,0 +1,605 @@
+<?xml version="1.0"?>
+<fot>
+<a name="0"/>
+<text>
+</text>
+<text>
+</text>
+<a name="1"/>
+<a name="2"/>
+<text>The Sasoa_0_0_6 Handbook</text>
+<text>
+</text>
+<text>
+</text>
+<a name="3"/>
+<a name="4"/>
+<a name="5"/>
+<text>George</text>
+<text>
+</text>
+<a name="6"/>
+<text>N.</text>
+<text>
+</text>
+<a name="7"/>
+<text>Ugnacious</text>
+<text>
+</text>
+<a name="8"/>
+<a name="9"/>
+<a name="10"/>
+<text>gnu@kde.org</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="11"/>
+<a name="12"/>
+<text>1999</text>
+<text>
+</text>
+<a name="13"/>
+<text>2000</text>
+<text>
+</text>
+<a name="14"/>
+<text>George N. Ugnacious</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="16"/>
+<text>03/04/1999</text>
+<text>
+</text>
+<a name="17"/>
+<text>1.01.00</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="18"/>
+<a name="19"/>
+<text>_0_0_6; is an application specially designed to do nothing you would
+</text>
+<text>ever want.</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="20"/>
+<a name="21"/>
+<text>KDE</text>
+<text>
+</text>
+<a name="22"/>
+<text>kdeutils</text>
+<text>
+</text>
+<a name="23"/>
+<text>Kapp</text>
+<text>
+</text>
+<a name="24"/>
+<text>nothing</text>
+<text>
+</text>
+<a name="25"/>
+<text>nothing else</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="26"/>
+<a name="27"/>
+<text>Introduction</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="28"/>
+<text>_0_0_6;</text>
+<text> is a program that lets you do absolutely nothing. Please report
+</text>
+<text>any problems or feature requests to the KDE mailing lists.</text>
+<text>
+</text>
+<text>
+</text>
+<a name="29"/>
+<a name="30"/>
+<text>Using Sasoa_0_0_6</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="31"/>
+<text>
+</text>
+<text>
+</text>
+<a name="32"/>
+<a name="33"/>
+<text>Here's a screenshot of </text>
+<text>_0_0_6;</text>
+<text>
+</text>
+<text>	</text>
+<a name="34"/>
+<text>	  </text>
+<a name="35"/>
+<text>	    </text>
+<a name="36"/>
+<text>&gt;
+</text>
+<text>	  </text>
+<text>
+</text>
+<text>	  </text>
+<a name="37"/>
+<text>	    </text>
+<a name="38"/>
+<text>&gt;
+</text>
+<text>	  </text>
+<text>
+</text>
+<text>	  </text>
+<a name="39"/>
+<text>	    </text>
+<a name="40"/>
+<text>Screenshot</text>
+<text>
+</text>
+<text>	  </text>
+<text>
+</text>
+<text>	</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="41"/>
+<a name="42"/>
+<text>More Kapp features</text>
+<text>
+</text>
+<text>
+</text>
+<a name="43"/>
+<text>It slices! It dices! and it comes with a free toaster!</text>
+<text>
+</text>
+<a name="44"/>
+<text>The Squiggle Tool </text>
+<a name="45"/>
+<a name="46"/>
+<text>	  </text>
+<a name="47"/>
+<text>	    </text>
+<a name="48"/>
+<text>&gt;
+</text>
+<text>	  </text>
+<text>
+</text>
+<text>	  </text>
+<a name="49"/>
+<text>	    </text>
+<a name="50"/>
+<text>&gt;
+</text>
+<text>	  </text>
+<text>
+</text>
+<text>	  </text>
+<a name="51"/>
+<text>	    </text>
+<a name="52"/>
+<text>Squiggle</text>
+<text>
+</text>
+<text>	  </text>
+<text> is used to draw squiggly lines all over
+</text>
+<text>the </text>
+<text>_0_0_6; main window. It's not a bug, it's a feature!</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="53"/>
+<a name="54"/>
+<text>Command Reference</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="55"/>
+<a name="56"/>
+<text>The main Sasoa_0_0_6 window</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="58"/>
+<a name="59"/>
+<text>The File Menu</text>
+<text>
+</text>
+<a name="60"/>
+<a name="61"/>
+<a name="62"/>
+<a name="63"/>
+<a name="64"/>
+<a name="65"/>
+<a name="66"/>
+<a name="67"/>
+<text>Ctrl</text>
+<a name="68"/>
+<text>n</text>
+<text>
+</text>
+<a name="69"/>
+<text>File</text>
+<text>
+</text>
+<a name="70"/>
+<text>New</text>
+<text>
+</text>
+<a name="71"/>
+<a name="72"/>
+<a name="73"/>
+<text>Creates a new document</text>
+<text>
+</text>
+<a name="74"/>
+<a name="75"/>
+<a name="76"/>
+<a name="77"/>
+<a name="78"/>
+<a name="79"/>
+<text>Ctrl</text>
+<a name="80"/>
+<text>s</text>
+<text>
+</text>
+<a name="81"/>
+<text>File</text>
+<text>
+</text>
+<a name="82"/>
+<text>Save</text>
+<text>
+</text>
+<a name="83"/>
+<a name="84"/>
+<a name="85"/>
+<text>Saves the document</text>
+<text>
+</text>
+<a name="86"/>
+<a name="87"/>
+<a name="88"/>
+<a name="89"/>
+<a name="90"/>
+<a name="91"/>
+<text>Ctrl</text>
+<a name="92"/>
+<text>q</text>
+<text>
+</text>
+<a name="93"/>
+<text>File</text>
+<text>
+</text>
+<a name="94"/>
+<text>Quit</text>
+<text>
+</text>
+<a name="95"/>
+<a name="96"/>
+<a name="97"/>
+<text>Quits</text>
+<text> </text>
+<text>_0_0_6;</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="98"/>
+<a name="99"/>
+<text>Developer's Guide to Sasoa_0_0_6</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="100"/>
+<text>Programming </text>
+<text>_0_0_6; plugins is a joy to behold. Just read through the next
+</text>
+<text>66 pages of API's to learn how!</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="101"/>
+<a name="102"/>
+<text>Questions and Answers</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="103"/>
+<a name="104"/>
+<a name="105"/>
+<a name="106"/>
+<text>My Mouse doesn't work. How do I quit </text>
+<text>_0_0_6;</text>
+<text>?</text>
+<text>
+</text>
+<a name="107"/>
+<a name="108"/>
+<text>You silly goose! Check out the </text>
+<a name="109"/>
+<text>Commands
+</text>
+<text>nclude credits for the programmers, documentation writers, and
+</text>
+<text>contributors here. The license for your software should then be included below
+</text>
+<text>the credits with a reference to the appropriate license file included in the KDE
+</text>
+<text>distribution. --&gt;
+</text>
+<text>
+</text>
+<a name="110"/>
+<text>Credits and License</text>
+<text>
+</text>
+<text>
+</text>
+<a name="111"/>
+<text>_0_0_6;</text>
+<text>
+</text>
+<a name="112"/>
+<text>Program copyright 1997 John Q. Hacker </text>
+<a name="113"/>
+<text>jqh@kde.org</text>
+<text>
+</text>
+<a name="114"/>
+<text>Contributors:
+</text>
+<a name="115"/>
+<a name="116"/>
+<a name="117"/>
+<text>Konqui the KDE Dragon </text>
+<a name="118"/>
+<text>konqui@kde.org</text>
+<text>
+</text>
+<a name="119"/>
+<a name="120"/>
+<text>Tux the Linux Penguin </text>
+<a name="121"/>
+<text>tux@linux.org</text>
+<text>
+</text>
+<text>
+</text>
+<a name="122"/>
+<text>Documentation copyright 1999 George N. Ugnacious </text>
+<a name="123"/>
+<text>gnu@kde.org</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<text>               </text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<text>        	 </text>
+<text>
+</text>
+<text>        </text>
+<text>
+</text>
+<text>   </text>
+<text>
+</text>
+<text>        </text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="124"/>
+<a name="125"/>
+<text>Installation</text>
+<text>
+</text>
+<text>
+</text>
+<a name="126"/>
+<a name="127"/>
+<text>How to obtain Sasoa_0_0_6</text>
+<text>
+</text>
+<text>
+</text>
+<a name="128"/>
+<text>_0_0_6; is part of the KDE project
+</text>
+<a name="129"/>
+<text>http://www.kde.org</text>
+<text>.
+</text>
+<text>_0_0_6; can be found in the kdeutils package on
+</text>
+<a name="130"/>
+<text>ftp://ftp.kde.org/pub/kde/</text>
+<text>, the
+</text>
+<text>main ftp site of the KDE project. </text>
+<text>
+</text>
+<text>
+</text>
+<a name="131"/>
+<a name="132"/>
+<text>Requirements</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="133"/>
+<text>In order to successfully use </text>
+<text>_0_0_6;, you need KDE 1.1. Foobar.lib is required
+</text>
+<text>in order to support the advanced </text>
+<text>_0_0_6; features. </text>
+<text>_0_0_6; uses about 5 megs of
+</text>
+<text>memory to run, but this may vary depending on your platform and
+</text>
+<text>configuration.</text>
+<text>
+</text>
+<text>
+</text>
+<a name="134"/>
+<text>All </text>
+<text>required libraries as well as </text>
+<text>_0_0_6; itself can be found
+</text>
+<text>on </text>
+<a name="135"/>
+<text>The </text>
+<text>_0_0_6; home page</text>
+<text>.</text>
+<text>
+</text>
+<text>
+</text>
+<a name="136"/>
+<text>You can find a list of changes at </text>
+<a name="137"/>
+<text>http://apps.kde.org/kapp</text>
+<text>.</text>
+<text>
+</text>
+<text>
+</text>
+<a name="138"/>
+<a name="139"/>
+<text>Compilation and Installation</text>
+<text>
+</text>
+<text>
+</text>
+<a name="140"/>
+<text>In order to compile and install KApp on your system, type the following in the base
+</text>
+<text>directory of the Icon Editor distribution:
+</text>
+<a name="141"/>
+<a name="142"/>
+<text>%</text>
+<text> </text>
+<a name="143"/>
+<text>./configure</text>
+<text>
+</text>
+<a name="144"/>
+<text>%</text>
+<text> </text>
+<a name="145"/>
+<text>make</text>
+<text>
+</text>
+<a name="146"/>
+<text>%</text>
+<text> </text>
+<a name="147"/>
+<text>make install</text>
+<text>
+</text>
+<text>
+</text>
+<a name="148"/>
+<text>Since KApp uses autoconf and automake you should have not trouble compiling it.
+</text>
+<text>Should you run into problems please report them to the KDE mailing lists.</text>
+<text>
+</text>
+<text>
+</text>
+<text>
+</text>
+<a name="149"/>
+<a name="150"/>
+<text>Configuration</text>
+<text>
+</text>
+<text>
+</text>
+</fot>

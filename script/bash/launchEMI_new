@@ -1,0 +1,32 @@
+#!/bin/sh
+
+if [[ $# < 2 ]]
+then
+  echo "usage : launchEMI <L3fits> <outdir> [<contact_min> <contact_max> <eph_file>]"
+  exit 0
+fi
+cd /home/agile/EMI/test/eimaging/test
+if [  -n "$3" -a  -n "$4" -a -n "$5" ]   
+then
+idl << ENDIDLBATCH
+.compile drive_EMI.pro
+print, 'going to exec drive_EMI ', ' $1', ' $2', ' CONTACT_MIN = $3', ' CONTACT_MAX = $4', ' EPH_FILE = $5' 
+drive_EMI, '$1', '$2', CONTACT_MIN = $3, CONTACT_MAX = $4, EPH_FILE = '$5'
+exit 
+ENDIDLBATCH
+else
+if [[ $# == 2 ]]
+then
+echo "executing launchEMI old version"
+idl << ENDIDLBATCH
+.compile drive_EMI.pro
+print, 'going to exec drive_EMI ', ' $1', ' $2'
+drive_EMI, '$1', '$2' 
+exit 
+ENDIDLBATCH
+else
+echo "unsafe condition! "
+exit 1 
+fi
+fi
+cd $OLDPWD

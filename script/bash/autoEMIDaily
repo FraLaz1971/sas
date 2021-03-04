@@ -1,0 +1,11 @@
+#!/bin/sh
+if [[ $# != 3 ]]
+then
+  echo "usage: autoEMI <indir> <contact_min> <contact_max>"
+  exit 0
+fi
+ls "$1"/*L3* > tempL3.txt; 
+read riga < tempL3.txt; 
+echo launchEMI_new "$riga" "$1/EMI" "$2" "$2" "$1/eph_testout.fits" 
+. launchEMI_new "$riga" "$1/EMI" "$2" "$3" "$1/eph_testout.fits" 
+rm tempL3.txt

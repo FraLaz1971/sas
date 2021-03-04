@@ -1,0 +1,3 @@
+irospointpilot.o irospointpilot.o: irospointpilot.cpp irospointpilot.h
+
+irospointpilot.h:

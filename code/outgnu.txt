@@ -1,0 +1,1 @@
+plot "phist_1.dat" with lines; pause -1 

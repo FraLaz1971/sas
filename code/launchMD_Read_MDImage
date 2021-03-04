@@ -1,0 +1,3 @@
+.compile MD_Read_MDImage.pro
+Read_MDImage, PPATH = ' ', PFNAME=' ', PNAME=' '
+exit

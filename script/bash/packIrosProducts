@@ -1,0 +1,9 @@
+if [[ $# != 1 ]] 
+then
+  echo "usage: packIrosProducts <prefix> "
+  exit
+fi
+
+mkdir -p $SASOA_HOME/stg_2/IROS_PRODUCTS_$1
+mv -f $SASOA_HOME/stg_2/*$1*.* $SASOA_HOME/stg_2/IROS_PRODUCTS_$1
+mv -f $SASOA_HOME/stg_2/IROS_PRODUCTS_$1 $SASOA_WORKDIR/SA/delivery

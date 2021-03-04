@@ -1,0 +1,111 @@
+/***************************************************************************
+                          sadatacorrector.h  -  description
+                             -------------------
+    begin                : Mon Oct 22 2007
+    copyright            : (C) 2007 by guest
+    email                : guest@spirit
+ ***************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ ***************************************************************************/
+
+#ifndef SADATACORRECTOR_H
+#define SADATACORRECTOR_H
+
+#include "safitshandler.h"
+#include "corrector.h"
+#include "sadatetime.h"
+#include <vector>
+#include <string>
+/**
+  *@author guest
+  */
+using namespace std;
+using namespace CCfits;
+using std::valarray;
+using namespace SApipeline;
+using namespace SAdata;
+
+namespace DataCorrection{
+class SADataCorrector : public Corrector  {
+public: 
+	
+	SADataCorrector();
+
+	SADataCorrector(const string &fn, const string &ofn);
+
+	~SADataCorrector();
+
+	void save(const string &fn, const string &ofn);
+
+	void addKeyword(const string &keyname, int keytype, string keyval);
+
+	void setKeyword(int hdunum, const string &keyname, int keytype, string keyval);
+	
+	void deleteKeyword(const string &keyname, int keytype);
+
+	string getKeyValue(const string &keyname, int keytype);	
+
+	void Correct(const string &fn, const string &ofn, double tstart, double tstop);
+	
+	void process(const string &fn, const string &ofn);
+
+	void process2(const string &fn, const string &ofn);
+	
+	void process3(const string &fn, const string &ofn);
+    	void setInputFileName(const string &fn);
+	
+    	double getTstart();
+	
+    	double getTstop();
+	
+    	void CorrectTDS(const string &fn, const string &ofn, double tstart, double tstop);
+
+	protected:
+	
+	vector<Keyword *> keyvec; 
+
+	int status;
+
+	int morekeys;
+
+	int hdutype;
+
+	double mfi; 
+
+	double mff; 
+
+	double tz; 
+	
+	double tstart; 
+	
+	double tstop; 
+	
+	int nkeys;
+
+	vector<string> kn; //keyword names
+			/** */
+   	vector<double> kv;  //keyword double values
+   	
+	vector<string> sv;  //keyword string values
+
+	vector<int> kt; //keyword types
+
+	vector<string> kc; //keyword comments
+	
+	string infile;
+
+	string outfile;
+
+	string mystring;
+	
+        SADateTime sdt;
+};
+}
+#endif

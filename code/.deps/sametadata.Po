@@ -1,0 +1,3 @@
+sametadata.o sametadata.o: sametadata.cpp sametadata.h
+
+sametadata.h:

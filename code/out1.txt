@@ -1,0 +1,36 @@
+SASOA (Super Agile Standard Orbital Analysis pipeline),  version 0.1.1
+enter 'help' to know commands
+info @ ftp://vesta.iasf-roma.inaf.it/pub/flazzarotto/AGILE/UserManual/index.html
+SasoaHandler::setArchiverEnv() going to set SASOA_HOME /home/agile/projects/sasoaWEB/sasoa/sasoa_0_0_6/..
+UserHome = /home/agile
+PipelineModule::getDetnam() DETNAM = SA
+PipelineModule::getSasoaWorkDir() = /home/agile/SASOA/SA
+SasoaHandler::setArchiverEnv() going to set SASOA_WORK_DIR /home/agile/SASOA/SA
+UserHome = /home/agile
+PipelineModule::getDetnam() DETNAM = SA
+PipelineModule::getSasoaWorkDir() = /home/agile/SASOA/SA
+UserHome = /home/agile
+PipelineModule::getDetnam() DETNAM = SA
+PipelineModule::getSasoaWorkDir() = /home/agile/SASOA/SA
+UserHome = /home/agile
+PipelineModule::getDetnam() DETNAM = SA
+PipelineModule::getSasoaWorkDir() = /home/agile/SASOA/SA
+UserHome = /home/agile
+PipelineModule::getDetnam() DETNAM = SA
+PipelineModule::getSasoaWorkDir() = /home/agile/SASOA/SA
+selected batch execution
+ batchline = testdb
+going to execute select tstop from `ContactTable` where contactnumber = 3551
+bench1
+DBConnector::getTimeInterval() n. of retrieved records = 1
+2007-12-31T00:46:20 
+going to execute select tstop from `ContactTable` where contactnumber = 3552
+DBConnector::executeSQLQuery() n. of retrieved records = 1
+2007-12-31T02:28:23 
+bench2
+bench3
+bench4
+bench5
+bench6
+md.first = 126147000.000000
+md.second = 2007.000000

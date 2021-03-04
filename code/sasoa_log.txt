@@ -1,0 +1,7 @@
+.
+..
+contacts_dir.txt
+CVS
+defval.txt
+detnam.txt
+envarval.txt

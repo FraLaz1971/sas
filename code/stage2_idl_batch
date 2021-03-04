@@ -1,0 +1,6 @@
+filename='PKP3001_0_3_05_0_0_L_3001_0_L2.evt'
+path_out=''
+stage_2, filename, path_out
+.r close_all_windows
+close_all_windows
+exit

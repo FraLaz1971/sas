@@ -1,0 +1,6 @@
+filename='PKP3001_0_3905_000_L1.cor'
+path_out=''
+stage_-1, filename, path_out
+.r close_all_windows
+close_all_windows
+exit

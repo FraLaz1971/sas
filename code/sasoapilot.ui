@@ -1,0 +1,129 @@
+<!DOCTYPE UI><UI version="3.2" stdsetdef="1">
+<class>SasoaPilotBase</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>SasoaPilotBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>176</width>
+            <height>366</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>SasoaPilot</string>
+        <comment>Pilots SuperAGILE Standard Analysis Pipeline</comment>
+    </property>
+    <widget class="QButtonGroup">
+        <property name="name">
+            <cstring>SasoaBG1</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>30</x>
+                <y>30</y>
+                <width>106</width>
+                <height>290</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>Selection</string>
+        </property>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>runButton</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>30</y>
+                    <width>81</width>
+                    <height>41</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>255</red>
+                    <green>170</green>
+                    <blue>127</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>Run</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>debugButton</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>90</y>
+                    <width>81</width>
+                    <height>41</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>85</red>
+                    <green>255</green>
+                    <blue>127</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>Debug</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>cleanButton</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>150</y>
+                    <width>81</width>
+                    <height>41</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>170</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>Clean</string>
+            </property>
+        </widget>
+        <widget class="QPushButton">
+            <property name="name">
+                <cstring>uninstallButton</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>210</y>
+                    <width>81</width>
+                    <height>41</height>
+                </rect>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>254</red>
+                    <green>88</green>
+                    <blue>88</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>Uninstall</string>
+            </property>
+        </widget>
+    </widget>
+</widget>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

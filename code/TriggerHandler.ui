@@ -1,0 +1,829 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>Form1</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>Form1</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>633</width>
+            <height>764</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Form1</string>
+    </property>
+    <widget class="QButtonGroup">
+        <property name="name">
+            <cstring>buttonGroup3</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>30</x>
+                <y>30</y>
+                <width>570</width>
+                <height>680</height>
+            </rect>
+        </property>
+        <property name="title">
+            <string>SAS_App_1</string>
+        </property>
+        <spacer>
+            <property name="name">
+                <cstring>spacer6_2_3_3</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>30</height>
+                </size>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>270</x>
+                    <y>20</y>
+                    <width>20</width>
+                    <height>30</height>
+                </rect>
+            </property>
+        </spacer>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout21</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>590</y>
+                    <width>533</width>
+                    <height>35</height>
+                </rect>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushButton6_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Quit</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer8_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>380</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushButton6</cstring>
+                    </property>
+                    <property name="text">
+                        <string>GO!</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout20</cstring>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>70</y>
+                    <width>532</width>
+                    <height>472</height>
+                </rect>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout19</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout17</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>textLabel1_3</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>&lt;b&gt;&lt;p align="center"&gt;CONTACT START&lt;/p&gt;&lt;/b&gt;</string>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer6_3</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Vertical</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>lineEdit1</cstring>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>spacer8_3</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>91</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout18</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>textLabel1_2_2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>&lt;b&gt;&lt;p align="center"&gt;CONTACT STOP&lt;/p&gt;&lt;/b&gt;</string>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer6_2_4</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Vertical</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>lineEdit1_2</cstring>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                    </hbox>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer6_2_3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>30</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout7</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout5</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>textLabel1</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>&lt;b&gt;&lt;p align="center"&gt;TSTART&lt;/p&gt;&lt;/b&gt;</string>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer6</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Vertical</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QDateTimeEdit">
+                                    <property name="name">
+                                        <cstring>dateTimeEdit1</cstring>
+                                    </property>
+                                    <property name="dateTime">
+                                        <datetime>
+                                            <year>2008</year>
+                                            <month>2</month>
+                                            <day>1</day>
+                                            <hour>12</hour>
+                                            <minute>44</minute>
+                                            <second>55</second>
+                                        </datetime>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>spacer8</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>84</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout6</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>textLabel1_2</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>&lt;b&gt;&lt;p align="center"&gt;TSTOP&lt;/p&gt;&lt;/b&gt;</string>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer6_2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Vertical</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>20</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QDateTimeEdit">
+                                    <property name="name">
+                                        <cstring>dateTimeEdit1_2</cstring>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                    </hbox>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer6_2_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>40</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QTextBrowser">
+                    <property name="name">
+                        <cstring>textBrowser1</cstring>
+                    </property>
+                    <property name="text">
+                        <string></string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer6_2_3_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>40</height>
+                        </size>
+                    </property>
+                </spacer>
+            </vbox>
+        </widget>
+    </widget>
+</widget>
+<menubar>
+    <property name="name">
+        <cstring>menubar</cstring>
+    </property>
+    <item text="&amp;Edit" name="editMenu">
+        <action name="editUndoAction"/>
+        <action name="editRedoAction"/>
+        <separator/>
+        <action name="editCutAction"/>
+        <action name="editCopyAction"/>
+        <action name="editPasteAction"/>
+        <separator/>
+        <action name="editFindAction"/>
+    </item>
+    <item text="&amp;File" name="fileMenu">
+        <action name="fileNewAction"/>
+        <action name="fileOpenAction"/>
+        <action name="fileSaveAction"/>
+        <action name="fileSaveAsAction"/>
+        <separator/>
+        <action name="filePrintAction"/>
+        <separator/>
+        <action name="fileExitAction"/>
+    </item>
+    <item text="&amp;Help" name="helpMenu">
+        <action name="helpContentsAction"/>
+        <action name="helpIndexAction"/>
+        <separator/>
+        <action name="helpAboutAction"/>
+    </item>
+</menubar>
+<toolbars>
+</toolbars>
+<actions>
+    <action>
+        <property name="name">
+            <cstring>fileNewAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image0</iconset>
+        </property>
+        <property name="text">
+            <string>New</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;New</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+N</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileOpenAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image1</iconset>
+        </property>
+        <property name="text">
+            <string>Open</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Open...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+O</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileSaveAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image2</iconset>
+        </property>
+        <property name="text">
+            <string>Save</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Save</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+S</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileSaveAsAction</cstring>
+        </property>
+        <property name="text">
+            <string>Save As</string>
+        </property>
+        <property name="menuText">
+            <string>Save &amp;As...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>filePrintAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image3</iconset>
+        </property>
+        <property name="text">
+            <string>Print</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Print...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+P</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>fileExitAction</cstring>
+        </property>
+        <property name="text">
+            <string>Exit</string>
+        </property>
+        <property name="menuText">
+            <string>E&amp;xit</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editUndoAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image4</iconset>
+        </property>
+        <property name="text">
+            <string>Undo</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Undo</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Z</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editRedoAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image5</iconset>
+        </property>
+        <property name="text">
+            <string>Redo</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Redo</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+Y</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editCutAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image6</iconset>
+        </property>
+        <property name="text">
+            <string>Cut</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Cut</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+X</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editCopyAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image7</iconset>
+        </property>
+        <property name="text">
+            <string>Copy</string>
+        </property>
+        <property name="menuText">
+            <string>C&amp;opy</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+C</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editPasteAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image8</iconset>
+        </property>
+        <property name="text">
+            <string>Paste</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Paste</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+V</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>editFindAction</cstring>
+        </property>
+        <property name="iconSet">
+            <iconset>image9</iconset>
+        </property>
+        <property name="text">
+            <string>Find</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Find...</string>
+        </property>
+        <property name="accel">
+            <string>Ctrl+F</string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpContentsAction</cstring>
+        </property>
+        <property name="text">
+            <string>Contents</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Contents...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpIndexAction</cstring>
+        </property>
+        <property name="text">
+            <string>Index</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;Index...</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+    <action>
+        <property name="name">
+            <cstring>helpAboutAction</cstring>
+        </property>
+        <property name="text">
+            <string>About</string>
+        </property>
+        <property name="menuText">
+            <string>&amp;About</string>
+        </property>
+        <property name="accel">
+            <string></string>
+        </property>
+    </action>
+</actions>
+<images>
+    <image name="image0">
+        <data format="PNG" length="189">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000008449444154789ced95310ac0200c4593d2c354e8e21a71f1eef65ae9d442353521e0e60741233ee5f355ac578519dadb42a2c49685f5aa389adfa42233ff3600807006f5002258538c5185775658148ef0f61325966c71814b2e9fb10477812953576be12e30e230103ef0930c6d33572a2c5ae0055ee081c42b6d790b34e1ac3f6f9a1537241b33a3ab373df30000000049454e44ae426082</data>
+    </image>
+    <image name="image1">
+        <data format="PNG" length="233">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000000b049444154789cb594510ec3200c436db453ad679baa69670bd7ca3e46d588668c68c13f11ad78b10c8452052b54965057826fd10ddb7d53bb962aecff4b1586c0c726af9154a16dcaacc3b350a9c2948cfb788096f1afdca2500020005505003d9620e7b82303edf04e28c0d68997ef91e6c5180fd6b18ae778ae8ee5661ccdda939bb185be9e31e063ff5437e37fa1e681e4422f8eb3a0069c0b3dad3665410133e833a1c0ec6dffa2d1ac489bc7bddee9fa70bd3b2498360000000049454e44ae426082</data>
+    </image>
+    <image name="image2">
+        <data format="PNG" length="231">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000000ae49444154789cd595c10a842010867fc383870e3ecf0ef46611d19b05e3f3ecc1c3de760f31615998610b7e1719d19fdf7174143bc6136800a0177d4b8ab263a52598c665ec0780e7bc535047eb1eea0800d0143219a1d34b8e31dee2d3bed7589c0a49c7c65b186fa3f95014585229e9bc247c97642af6ceaef298e3fa84a31c4f635c3a29c26a38153e5b98cb7fcbad1ff285f6a7bcfda4c38feae84eea2bb7fa8495f4bc52ed891dab8d70697eb3b92ba643afe5490000000049454e44ae426082</data>
+    </image>
+    <image name="image3">
+        <data format="PNG" length="733">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000002a449444154789c8d94b16f13311487bf54199e2586bbed2231341bd97a9d205bd988d4a59d68c542050bff423a323221c66e0506040b52d960404d17d430a05c072467a874d9ce9bdf1686bb737369a2f216dfd9cf3f7f7efed9adf3d139aba270c5dc88218aa246bfaa36dac215c4518c88b416f3da2b55012386742b0d028b2122e1db39879dda5b396b8501b2abec96d8f242aada58e84e61affe9680578f11d31857d5ba148dfc8d35baf3451211414488a3382418314170b9be6b896b8ac215183177d67955ac23c6ab6f102e8b2ebbe3bf88d71d541d8ba2ebc8570ae7b39cee66974ed2592b5e1fe4e862842bdc5c4c44278943ad1bc2aa3ab7d692fdca905d095b5ed5d6ee7033c7e8e788dce5f47abdf96077401cc5ad567df354759e6596e23aa7845c4d5a962a4230700fecb5653cbe249fcd50f5f41e74397a715412d7a4839dc7481495db57c52f2baa070c178cf8ce197dedd3cf52b2ec12d42340f63be3dddb13daa568cede933de2ce6a172cc684096f788dc53266cca99c32f8bbcf0777423e2b50947c6a691779c1c1d33d8c31778a02c4c4ecf008411830603bdd26960e4e734e3ebec739479444b415b0d3b23ea88208a583ca858c802065c5abf1573a641f4ba209974c4095e87e076a1b026d379b61af26e544af8473934a88caa7a2a0120605b09aa3285e15fb67128e5ba8ec5677dce868e854f4668d9bccf02f254f2314a58d8016cd0942d36ce5828bc47508aa8eda3ff51ddcdeeab3c1226580ad88b56a97ca5067ab3a7cdd2306059224e1f9cb8392d84e6d956e403c38031420a6c2f5e537602a3e1318b5fc538f080c8f8774924eabbdd9ddc47efdc1e76f676835088686f944c236a9dfe8503c825b86c743d2346d01842b9dcff2f9974f67e4d6860358bedaf583e415548bb2cf29e9c394c36787f47abdf008fd03e5e27c966b4513300000000049454e44ae426082</data>
+    </image>
+    <image name="image4">
+        <data format="PNG" length="215">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000009e49444154789ced943b0e80200c865be3a97023f158c6188f45d20dae85135a515e120613feb12d5f1bfa406d34b4d0d084dac15c6349f024c8bed9f70d40ce12b90ddd544c82ac3677670ae88bbfbf55ecc37d602a3129b2aef2c71fbb200ed5466208ca132eeb657b6d9e0f0d01638a4ec55768129cdbb462700d3c6b415270e7dfb7cb8635d78d14593e09bc27552b1d820254561cd3ffae5b079f3a00027d46cdffa98d8e0000000049454e44ae426082</data>
+    </image>
+    <image name="image5">
+        <data format="PNG" length="207">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000009649444154789ced943d0e80200c46a9f154b091782c6308c722e906d7c249ac08d8a06e7c0b09b48ffe01f8e0c51f9a7ea10e30d59c6fa0c3b86e65631f3470c140a742498c1ca7da054a623cce52c4e84e68cb91aed42e0f2ad5f848bf95ae0f1a4ab052a65dcd6b45fa0a9cc33f053f35ba0bcc999e04b686e7c41dc9ea1c5b23845ef80f22d7a514b421b5d7c7158cff78806fda01413a46032a624b9a0000000049454e44ae426082</data>
+    </image>
+    <image name="image6">
+        <data format="PNG" length="216">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000009f49444154789ccdd4310e80200c05d0d6782ad838385b7b2d9c9a20227c40a35d4c343eda9f0616157aa3b6d647ef7c1a790fc32bf51f188901826b90a8f0128c0053b095758dc64044c4c81ee7203ac5b75b615d8e640e661c53fe7c0436ccbaf52e26e480ce5d119368388d2f1a5834700fbf856b6879400bafc23d14c12f308af66a688f916ca7e0b25ad3eda33fe75db722abde15f9b8b3794397d04c1de44661b02953d85d0000000049454e44ae426082</data>
+    </image>
+    <image name="image7">
+        <data format="PNG" length="268">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000000d349444154789cb595310ec3200c456d944b9564cadea567a93ab125e7ca06d7fa1d2aa788e04088f892173e3c7f39a0b00f9e7ac874a112111311ce36f8e0b9190ce4d9ccdc0c1f5288489a012066c655f80ed652b7c2f751e412ffd69653800f73b659c58c17029ce2af2adcfc37f1a1e286a9277a4c8e46bb1d92ed6000878aa579af671eaede0a8169be78ef8fac381aed0a194bd5ad38f365cea2d16ef061e65b89731f551add4eaca93971a979b7c446d26815272e55aca1f4fee57e36cfb8a4e6195f3954a32a70fa08aacef4fa997e01b67a9771c5f489860000000049454e44ae426082</data>
+    </image>
+    <image name="image8">
+        <data format="PNG" length="294">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000000ed49444154789cb5955b0e83201045ef98ae4a927e745d12d3c0bafad104b735fd402d8f41d0d29b98098f39730541728bc33f743b1a54a3e2b4cf2d8e5ac0b439962000c0412f159052b1a1152ab53749f9048001c03c0d000dc040cf7a07852ec3b6343f744e00389de4def50d557795c143f0e0831ff4f18cca79eb5761a249eaae1ac1719e00fe0e86af772ec61ae4ca5762ac75f3ca703de749b2e2cd13d73875c23c15714416cc537678b2352ec1896c060d0b7ab865b73ca8d971cdb504efe6388577712c15fdd9b15490c8f65de36e8e25ed06d68b9ecb8fe1b3020c53ed9fa7c657e17a3f56157c551fed76e3da4382a0360000000049454e44ae426082</data>
+    </image>
+    <image name="image9">
+        <data format="PNG" length="705">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000028849444154789cb595bf6b1c4714c73f275cbc8514b3e06217dc2ca8d9e022a7ee4452e820858eb811b8b17199bfcaa84e617c2e04d7242445901470b8ebbc2a04738561a610cc1481fd769be2a420c7494ec6d1b79be1cde73ddeaf199d9e9d721fdab9172af0e0f621e534acfd9af03e9024004a339add86a66930b3d12783430cc3f9db156eb766fc7406ce00886bcff2c715fed233f9663294aebc137c747a764a886198bf9ab3ffdd94c9b32300d40b49f4f46465ce7e5850bc17b327b33b45be2369387f7bcef4fb67b487d30dd01b5ad77051917f2bc831f1e5e1141e3996abe59d52b1e3bdc7ed364c0ea60058ac49eb48d092601d26879d37f439d14c5aba4b4fca69d80e8e81763246883e83bff0acdd3b5465021e59c628501498618f4a6288db23d61fa2748edc67a205f257017305ca3d250de0f0f91d720241e18c10c356f003802461022404a01e8b0da69ae0cf50bb061c7dce80c1c6eabf23066d8012520feae905a682d0adc86d84ca3636067dce98d97670f5b0c2affda6b5047d16420479542504e8fa4e59e4ab44d334dbc14dd3107fed368f95ff0214bd83b59172da3814a410a829285db91d5c57f5a87ae858fef233d76906846745761da515e494c829a1df3dede3165739420c83a47f6dbb1d80bdf11ee515a493152661325c6d585362825ac04f1dfb5fefd3b6edc85f7816270b8e5f1e1362f847f8e8666d4a1a96ab25dda5c75c015f6c0aa4ab8409a6df4ea9abfa669487c5c982f99b39ce398e9e1eb137defb60d4477fdfc729a7218648ca89c20a9c7337c5fa683f78ef87e397c7c418393838f8c0f947e04f95a46171b2e0f59bd7d455cdf317cf198fc7a3cf06dfa8ebbae13ae7cc0e679f1ff16da59c86f9ab3992fe5ff06ddddb9ff7276cf77aea59cc15a00000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>pushButton6_2</sender>
+        <signal>clicked()</signal>
+        <receiver>Form1</receiver>
+        <slot>close()</slot>
+    </connection>
+    <connection>
+        <sender>fileOpenAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>fileOpen()</slot>
+    </connection>
+    <connection>
+        <sender>fileSaveAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>fileSave()</slot>
+    </connection>
+    <connection>
+        <sender>fileSaveAsAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>fileSaveAs()</slot>
+    </connection>
+    <connection>
+        <sender>filePrintAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>filePrint()</slot>
+    </connection>
+    <connection>
+        <sender>fileExitAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>fileExit()</slot>
+    </connection>
+    <connection>
+        <sender>editUndoAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>editUndo()</slot>
+    </connection>
+    <connection>
+        <sender>editRedoAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>editRedo()</slot>
+    </connection>
+    <connection>
+        <sender>editCutAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>editCut()</slot>
+    </connection>
+    <connection>
+        <sender>editCopyAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>editCopy()</slot>
+    </connection>
+    <connection>
+        <sender>editPasteAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>editPaste()</slot>
+    </connection>
+    <connection>
+        <sender>editFindAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>editFind()</slot>
+    </connection>
+    <connection>
+        <sender>helpIndexAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>helpIndex()</slot>
+    </connection>
+    <connection>
+        <sender>helpContentsAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>helpContents()</slot>
+    </connection>
+    <connection>
+        <sender>helpAboutAction</sender>
+        <signal>activated()</signal>
+        <receiver>Form1</receiver>
+        <slot>helpAbout()</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>fileNew()</slot>
+    <slot>fileOpen()</slot>
+    <slot>fileSave()</slot>
+    <slot>fileSaveAs()</slot>
+    <slot>filePrint()</slot>
+    <slot>fileExit()</slot>
+    <slot>editUndo()</slot>
+    <slot>editRedo()</slot>
+    <slot>editCut()</slot>
+    <slot>editCopy()</slot>
+    <slot>editPaste()</slot>
+    <slot>editFind()</slot>
+    <slot>helpIndex()</slot>
+    <slot>helpContents()</slot>
+    <slot>helpAbout()</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
